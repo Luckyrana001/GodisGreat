@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCD"
+    >
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:background="#ffffff"
+
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/prayer"
+        android:scaleType="fitXY"
+        android:transitionName="profile_pic"
+        android:id="@+id/profile_pic" />
+
+    <TextView
+
+        android:text="Prayer 1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/title"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:transitionName="welcome"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/profile_pic"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
